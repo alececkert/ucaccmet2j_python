@@ -5,14 +5,7 @@ import csv
 #loadig the json data
 with open('precipitation.json') as file:
     contents= json.load(file)
-
-#codes for all the stations
-#stations= [
-    #'GHCND:USW00093814',
-    #'GHCND:US1WAKG0038',
-    #'GHCND:USC00513317',
     
-    #'GHCND:US1CASD0032']
 #dictionaries and lists
 results={}
 total_monthly_precipitation=[]
